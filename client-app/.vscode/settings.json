@@ -1,0 +1,8 @@
+{
+    "appService.deploySubpath": "build",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/a3e56b0c-b1ca-4bd0-a7f1-0abca574f426/resourceGroups/rg-makeaquiz/providers/Microsoft.Web/sites/makeaquiz"
+}

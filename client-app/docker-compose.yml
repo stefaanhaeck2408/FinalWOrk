@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  clientapp:
+    stdin_open: true
+    image: makeaquiz.azurecr.io/clientv3
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - "/app/node_modules"
+      - "./:/app"

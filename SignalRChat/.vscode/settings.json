@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net5.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/a3e56b0c-b1ca-4bd0-a7f1-0abca574f426/resourceGroups/stefaan.haeck_rg_Linux_centralus/providers/Microsoft.Web/sites/makeaquizsignalr"
+}
